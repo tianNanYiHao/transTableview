@@ -15,6 +15,10 @@
 		287452361E88AEC00020AA2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287452341E88AEC00020AA2F /* LaunchScreen.storyboard */; };
 		287452411E88AEC00020AA2F /* transTableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287452401E88AEC00020AA2F /* transTableviewTests.m */; };
 		2874524C1E88AEC00020AA2F /* transTableviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874524B1E88AEC00020AA2F /* transTableviewUITests.m */; };
+		2874525A1E88B19E0020AA2F /* h5test.html in Resources */ = {isa = PBXBuildFile; fileRef = 287452591E88B19E0020AA2F /* h5test.html */; };
+		2874525D1E88B24E0020AA2F /* HtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874525C1E88B24E0020AA2F /* HtmlViewController.m */; };
+		287452601E88DF310020AA2F /* TransferTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874525F1E88DF310020AA2F /* TransferTableViewCell.m */; };
+		287452691E8934B90020AA2F /* TransferPayToolSelMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 287452681E8934B90020AA2F /* TransferPayToolSelMode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		286F20031E8F41AF002608CA /* MyPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPch.pch; sourceTree = "<group>"; };
 		287452231E88AEC00020AA2F /* transTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287452271E88AEC00020AA2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		287452291E88AEC00020AA2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		287452471E88AEC00020AA2F /* transTableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transTableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2874524B1E88AEC00020AA2F /* transTableviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = transTableviewUITests.m; sourceTree = "<group>"; };
 		2874524D1E88AEC00020AA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287452591E88B19E0020AA2F /* h5test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = h5test.html; sourceTree = "<group>"; };
+		2874525B1E88B24E0020AA2F /* HtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlViewController.h; sourceTree = "<group>"; };
+		2874525C1E88B24E0020AA2F /* HtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlViewController.m; sourceTree = "<group>"; };
+		2874525E1E88DF310020AA2F /* TransferTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferTableViewCell.h; sourceTree = "<group>"; };
+		2874525F1E88DF310020AA2F /* TransferTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferTableViewCell.m; sourceTree = "<group>"; };
+		287452671E8934B90020AA2F /* TransferPayToolSelMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferPayToolSelMode.h; sourceTree = "<group>"; };
+		287452681E8934B90020AA2F /* TransferPayToolSelMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferPayToolSelMode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,22 @@
 		287452251E88AEC00020AA2F /* transTableview */ = {
 			isa = PBXGroup;
 			children = (
+				287452591E88B19E0020AA2F /* h5test.html */,
 				287452291E88AEC00020AA2F /* AppDelegate.h */,
 				2874522A1E88AEC00020AA2F /* AppDelegate.m */,
 				2874522C1E88AEC00020AA2F /* ViewController.h */,
 				2874522D1E88AEC00020AA2F /* ViewController.m */,
+				2874525E1E88DF310020AA2F /* TransferTableViewCell.h */,
+				2874525F1E88DF310020AA2F /* TransferTableViewCell.m */,
+				287452671E8934B90020AA2F /* TransferPayToolSelMode.h */,
+				287452681E8934B90020AA2F /* TransferPayToolSelMode.m */,
+				2874525B1E88B24E0020AA2F /* HtmlViewController.h */,
+				2874525C1E88B24E0020AA2F /* HtmlViewController.m */,
 				2874522F1E88AEC00020AA2F /* Main.storyboard */,
 				287452321E88AEC00020AA2F /* Assets.xcassets */,
 				287452341E88AEC00020AA2F /* LaunchScreen.storyboard */,
 				287452371E88AEC00020AA2F /* Info.plist */,
+				286F20031E8F41AF002608CA /* MyPch.pch */,
 				287452261E88AEC00020AA2F /* Supporting Files */,
 			);
 			path = transTableview;
@@ -207,6 +227,7 @@
 				TargetAttributes = {
 					287452221E88AEC00020AA2F = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5W6GX84DS4;
 						ProvisioningStyle = Automatic;
 					};
 					2874523B1E88AEC00020AA2F = {
@@ -249,6 +270,7 @@
 				287452361E88AEC00020AA2F /* LaunchScreen.storyboard in Resources */,
 				287452331E88AEC00020AA2F /* Assets.xcassets in Resources */,
 				287452311E88AEC00020AA2F /* Main.storyboard in Resources */,
+				2874525A1E88B19E0020AA2F /* h5test.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2874522E1E88AEC00020AA2F /* ViewController.m in Sources */,
+				287452691E8934B90020AA2F /* TransferPayToolSelMode.m in Sources */,
 				2874522B1E88AEC00020AA2F /* AppDelegate.m in Sources */,
 				287452281E88AEC00020AA2F /* main.m in Sources */,
+				287452601E88DF310020AA2F /* TransferTableViewCell.m in Sources */,
+				2874525D1E88B24E0020AA2F /* HtmlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +447,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W6GX84DS4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/transTableview/MyPch.pch";
 				INFOPLIST_FILE = transTableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sand.transTableview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +462,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W6GX84DS4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/transTableview/MyPch.pch";
 				INFOPLIST_FILE = transTableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sand.transTableview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +538,7 @@
 				287452521E88AEC00020AA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		287452531E88AEC00020AA2F /* Build configuration list for PBXNativeTarget "transTableviewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +547,7 @@
 				287452551E88AEC00020AA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		287452561E88AEC00020AA2F /* Build configuration list for PBXNativeTarget "transTableviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +556,7 @@
 				287452581E88AEC00020AA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

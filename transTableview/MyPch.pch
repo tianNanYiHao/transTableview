@@ -1,0 +1,24 @@
+//
+//  MyPch.pch
+//  transTableview
+//
+//  Created by tianNanYiHao on 2017/4/1.
+//  Copyright © 2017年 tianNanYiHao. All rights reserved.
+//
+
+#ifndef MyPch_pch
+#define MyPch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MyPch_pch */
+
+#define sss @"1123"
+
+
+
+
+#define showToTest(FORMAT) [NSString stringWithFormat:@"%@",FORMAT]
+//#define showToTest(FORMAT) [NSString stringWithFormat:@"%@",@""]
+

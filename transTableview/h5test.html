@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Minlet Testing</title>
+</head>
+
+<script type="text/javascript">
+
+	function load()
+	{
+		document.getElementById("text_os").innerHTML = "os info:";
+
+	}
+
+	function SandMajlet_Callback(kind, result)
+	{
+	    alert(kind + ":" + result);
+		document.getElementById("text_out").innerHTML = kind + ":" + result;
+	}
+
+	function Pay()
+	{
+        window.SandMajlet.Pay("tttttnnnnn");
+	}
+	function Jump()
+	{
+        window.SandMajlet.Jump("http://www.baidu.com");
+	}
+	function JumpWithBarMenu()
+	{
+        window.SandMajlet.JumpWithBarMenu("http://www.baidu.com", "[{'caption':'xyz','url':'http://www.baidu.com'}]");
+	}
+
+</script>
+
+<body onload="load()">
+
+    <h1>SandMajlet Testing</h1>
+    <h4 id="text_os"></h4>
+
+    <a href="http://www.sina.com">Another Web Page</a>
+    <br/>
+
+    <br/>
+    <input type="text" id="text_out" />
+    <br/>
+
+    <input type="button" value="Pay" onclick="Pay()" />
+    <input type="button" value="Jump" onclick="Jump()" />
+    <input type="button" value="JumpWithBarMenu" onclick="JumpWithBarMenu()" />
+
+</body>
+</html>
